@@ -3,6 +3,9 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects  from "./components/Projects";
 import Contact from "./components/Contact";
+import Engineering from "./components/Engineering";
+import FeaturedProject from "./components/FeaturedProject";
+
 
 import {useState} from "react";
 function App() {
@@ -17,6 +20,8 @@ function App() {
       <Navbar toggleTheme={toggleTheme} theme={theme} />
       <Hero />
       <About />
+      <Engineering />
+      <FeaturedProject />
       <Projects />
       <Contact />
     </div>

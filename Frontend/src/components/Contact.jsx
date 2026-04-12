@@ -1,4 +1,14 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
+
+const fadeInUp = {
+  hidden: { opacity: 0, y: 40 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6 }
+  }
+};
 
 function Contact() {
   const [form, setForm] = useState({
@@ -23,7 +33,14 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="contact">
+   <motion.section
+  id="about"
+  className="about"
+  variants={fadeInUp}
+  initial="hidden"
+  whileInView="show"
+  viewport={{ once: true, amount: 0.2 }}
+>
       <div className="container">
         <h3>Contact Me</h3>
 
@@ -57,7 +74,7 @@ function Contact() {
           <button type="submit">Send Message</button>
         </form>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

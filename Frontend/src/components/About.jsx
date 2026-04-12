@@ -1,4 +1,14 @@
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { motion } from "framer-motion";
+
+const fadeInUp = {
+  hidden: { opacity: 0, y: 40 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6 }
+  }
+};
 
 function About() {
   const profiles = [
@@ -20,7 +30,14 @@ function About() {
   ];
 
   return (
-    <section id="about" className="about">
+    <motion.section
+  id="about"
+  className="about"
+  variants={fadeInUp}
+  initial="hidden"
+  whileInView="show"
+  viewport={{ once: true, amount: 0.2 }}
+>
       <div className="container">
         <h3>About Me</h3>
 
@@ -45,7 +62,7 @@ function About() {
 
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

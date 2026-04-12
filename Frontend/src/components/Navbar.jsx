@@ -1,12 +1,13 @@
 import { useState } from "react";
 
+
 function Navbar({ toggleTheme, theme }) {
   const [isFixed, setIsFixed] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className={`navbar ${isFixed ? "fixed" : ""}`}>
-      <div className="container">
+    <header className="Navbar">
+      <div className="navbar-inner container">
 
         {/* Logo (optional placeholder) */}
         <h3>Portfolio</h3>
