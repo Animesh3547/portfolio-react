@@ -22,7 +22,12 @@ function Hero() {
         />
 
         <h2>Hi, I'm Animesh Singh</h2>
-        <p>Frontend Developer | UI/UX Designer</p>
+<p>
+  Mechanical + AI Engineer | Simulation, Digital Twin, and Intelligent Systems
+</p>
+<p className="hero-sub">
+  Building systems that combine physics, data, and intelligence for real-world applications
+</p>
 
         <a href="#projects" className="btn">
           View Projects

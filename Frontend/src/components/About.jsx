@@ -41,10 +41,20 @@ function About() {
       <div className="container">
         <h3>About Me</h3>
 
-        <p>
-          I'm a passionate web developer who loves building clean and
-          user-friendly websites.
-        </p>
+        
+       <p>
+  I am a Mechanical Engineering student focused on building intelligent engineering systems by combining simulation, machine learning, and real-world data integration. 
+
+  My work spans propulsion systems, digital twin architectures, and data-driven optimization of mechanical systems. I aim to develop solutions that bridge physical systems with computational intelligence.
+</p>
+
+         <h4>Core Focus</h4>
+<ul className="focus-list">
+  <li>Simulation and Modeling (CFD / System Models)</li>
+  <li>Machine Learning for Engineering Systems</li>
+  <li>Digital Twin and Data-Driven Systems</li>
+  <li>Propulsion and Aerodynamics</li>
+</ul>
 
         <div className="profiles">
           <h4>Find me on</h4>

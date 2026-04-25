@@ -1,19 +1,25 @@
 export const projects = [
-  {
-    title: "Tic-Tac-Toe",
-    description: "Experimental game to learn JS logic.",
-    link: "https://fluffy-marshmallow3.netlify.app/"
+ {
+    title: "Smart_Exhaust_System",
+    description: "Data driven digital-twin dashboard",
+    link: "https://drp-project-topaz.vercel.app/"
   },
-  {
-    title: "Stone Paper Scissors",
-    description: "Basic JS game.",
-    link: "https://fluffy-marshmallow1.netlify.app/"
-  },
-  {
-    title: "Currency Converter",
-    description: "Uses API to fetch currency rates.",
-    link: "https://fluffy-marshmallow2.netlify.app/"
-  },
+
+  // {
+  //   title: "Tic-Tac-Toe",
+  //   description: "Experimental game to learn JS logic.",
+  //   link: "https://fluffy-marshmallow3.netlify.app/"
+  // },
+  //  {
+  //   title: "Stone Paper Scissors",
+  //   description: "Basic JS game.",
+  //   link: "https://fluffy-marshmallow1.netlify.app/"
+  // },
+  // {
+  //   title: "Currency Converter",
+  //   description: "Uses API to fetch currency rates.",
+  //   link: "https://fluffy-marshmallow2.netlify.app/"
+  // },
   {
     title: "Amazon Clone",
     description: "UI clone to understand layouts.",
